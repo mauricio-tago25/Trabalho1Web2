@@ -49,6 +49,12 @@ export default {
             'nome': this.usuario.usuario,
             'senha': this.usuario.senha,
             'isAdm': this.adm.checked
+          },
+          {
+            headers: {
+              usuario: this.usuario.usuario,
+              senha: this.usuario.senha
+            }
           }
       ).then(response => {
         this.$router.push({name: 'Menu'});

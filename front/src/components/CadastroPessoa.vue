@@ -59,6 +59,10 @@ export default {
         cpf: '',
         rg: '',
         cnpj: ''
+      },
+      usuario: {
+        usuario: '',
+        senha: ''
       }
     }
   },
@@ -84,6 +88,12 @@ export default {
               cpf: this.pessoa.cpf,
               rg: this.pessoa.rg,
               cnpj: this.pessoa.cnpj
+            },
+            {
+              headers: {
+                usuario: this.usuario.usuario,
+                senha: this.usuario.senha
+              }
             })
             .then(response => {
               window.alert('Pessoa Cadastrada com sucesso!')

@@ -22,41 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cef5909-4cd7-41f8-a011-908a71778d8b" name="Default Changelist" comment="Atualizando projeto">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/CadastroPessoa.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/CadastroProduto.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/CadastroUsuario.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Categoria.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Menu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/MenuProduto.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Pessoa.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Produto.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Trabalho1Web2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Trabalho1Web2.iml" afterDir="false" />
+    <list default="true" id="5cef5909-4cd7-41f8-a011-908a71778d8b" name="Default Changelist" comment="Projeto atualizado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/br/ufms/cpcx/mauricio/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/ufms/cpcx/mauricio/controller/PessoaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/br/ufms/cpcx/mauricio/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/ufms/cpcx/mauricio/controller/ProdutoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/br/ufms/cpcx/mauricio/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/br/ufms/cpcx/mauricio/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/controller/PessoaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/controller/PessoaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/controller/ProdutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/controller/ProdutoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/controller/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/dto/ProdutoFisicoDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/dto/ProdutoJuridicoDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/service/LoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/service/PessoaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/service/PessoaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/service/ProdutoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/back/target/classes/br/ufms/cpcx/mauricio/service/ProdutoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/Pessoa.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/Produto.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/CadastroPessoa.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/CadastroPessoa.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/CadastroUsuario.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/CadastroUsuario.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +136,7 @@
       <workItem from="1607171274717" duration="30209000" />
       <workItem from="1607267587090" duration="1034000" />
       <workItem from="1607279728522" duration="23293000" />
-      <workItem from="1607379513813" duration="7215000" />
+      <workItem from="1607379513813" duration="8981000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizando projeto">
       <created>1606180393740</created>
@@ -176,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606180393740</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Projeto atualizado">
+      <created>1607388052833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607388052834</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +172,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Atualizando projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizando projeto" />
+    <MESSAGE value="Projeto atualizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto atualizado" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="82" width="374" height="556" key="#com.intellij.ide.util.MemberChooser" timestamp="1606088336761">
@@ -211,38 +188,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="478" y="105" width="432" height="505" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605806684661" />
-    <state width="1324" height="191" key="GridCell.Tab.0.bottom" timestamp="1607315577790">
+    <state width="1324" height="191" key="GridCell.Tab.0.bottom" timestamp="1607387979815">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607315577790" />
-    <state width="1324" height="191" key="GridCell.Tab.0.center" timestamp="1607315577789">
+    <state width="1324" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607387979815" />
+    <state width="1324" height="191" key="GridCell.Tab.0.center" timestamp="1607387979814">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607315577789" />
-    <state width="1324" height="191" key="GridCell.Tab.0.left" timestamp="1607315577788">
+    <state width="1324" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607387979814" />
+    <state width="1324" height="191" key="GridCell.Tab.0.left" timestamp="1607387979813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607315577788" />
-    <state width="1324" height="191" key="GridCell.Tab.0.right" timestamp="1607315577789">
+    <state width="1324" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607387979813" />
+    <state width="1324" height="191" key="GridCell.Tab.0.right" timestamp="1607387979814">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607315577789" />
-    <state width="1324" height="191" key="GridCell.Tab.1.bottom" timestamp="1607315577791">
+    <state width="1324" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607387979814" />
+    <state width="1324" height="191" key="GridCell.Tab.1.bottom" timestamp="1607387979817">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="191" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607315577791" />
-    <state width="1324" height="191" key="GridCell.Tab.1.center" timestamp="1607315577790">
+    <state width="1324" height="191" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607387979817" />
+    <state width="1324" height="191" key="GridCell.Tab.1.center" timestamp="1607387979816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="191" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607315577790" />
-    <state width="1324" height="191" key="GridCell.Tab.1.left" timestamp="1607315577790">
+    <state width="1324" height="191" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607387979816" />
+    <state width="1324" height="191" key="GridCell.Tab.1.left" timestamp="1607387979815">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="191" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607315577790" />
-    <state width="1324" height="191" key="GridCell.Tab.1.right" timestamp="1607315577791">
+    <state width="1324" height="191" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607387979815" />
+    <state width="1324" height="191" key="GridCell.Tab.1.right" timestamp="1607387979816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="191" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607315577791" />
+    <state width="1324" height="191" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607387979816" />
     <state width="1324" height="217" key="GridCell.Tab.2.bottom" timestamp="1607226327688">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -263,10 +240,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="187" y="0" width="1024" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607202122622" />
-    <state x="278" y="99" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1606181008265">
+    <state x="278" y="99" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1607388103202">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="278" y="99" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606181008265" />
+    <state x="278" y="99" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607388103202" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1607095015990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
