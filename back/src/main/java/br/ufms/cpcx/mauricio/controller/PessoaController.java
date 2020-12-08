@@ -20,11 +20,11 @@ public class PessoaController {
     @Autowired
     private LoginService loginService;
 
-    @GetMapping
-    @ResponseBody
-    public ResponseEntity<?> buscarTodas() {
-        return new ResponseEntity(pessoaService.buscarTodas(), HttpStatus.OK);
-    }
+    //@GetMapping
+    //@ResponseBody
+    //public ResponseEntity<?> buscarTodas() {
+    //    return new ResponseEntity(pessoaService.buscarTodas(), HttpStatus.OK);
+    //}
 
     @GetMapping
     @ResponseBody
