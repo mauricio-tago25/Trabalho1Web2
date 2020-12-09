@@ -4,8 +4,8 @@
 
     <b-form>
       <b-form-group>
-        <b-form-input placeholder="Insira Nome" required></b-form-input>
-        <b-form-input placeholder="Insia senha" required></b-form-input>
+        <b-form-input placeholder="Insira Nome" v-model="usuario.usuario" required></b-form-input>
+        <b-form-input placeholder="Insia senha" v-model="usuario.senha" required></b-form-input>
       </b-form-group>
 
       <div class="admin-checkbox">
@@ -30,8 +30,19 @@ export default {
       titulo: 'Cadastro de Usuário',
       adm: 'Não é Administrador',
       usuario: {
-        usuario: '',
-        senha: ''
+        isAdministrador: '',
+        login: '',
+        senha: '',
+        pessoa: {
+          idResponsavel: '',
+          tipoPessoa: '',
+          situacaoPessoa: '',
+          nome: '',
+          apelido: '',
+          dataNascimento: '',
+          cpf: '',
+          rg: ''
+        }
       }
     }
   },
@@ -39,24 +50,35 @@ export default {
     cadastrar(evt) {
       evt.preventDefault();
 
-      if (this.usuario.usuario !== ' ' || this.usuario.senha !== ' ') {
+      if (this.usuario.usuario === ' ' || this.usuario.senha === ' ') {
         window.alert('Os campos devem ser preenchidos.')
         return
       }
 
       this.$http.post('http://localhost:8080/api/usuario',
           {
-            'nome': this.usuario.usuario,
+            'isAdministrador': this.usuario.isAdministrador,
+            'login': this.usuario.login,
             'senha': this.usuario.senha,
-            'isAdm': this.adm.checked
+            'pessoa': {
+              'idResponsavel': this.usuario.pessoa.idResponsavel,
+              'tipoPessoa': this.usuario.pessoa.tipoPessoa,
+              'situacaoPessoa': this.usuario.pessoa.situacaoPessoa,
+              'nome': this.usuario.pessoa.nome,
+              'apelido': this.usuario.pessoa.apelido,
+              'dataNascimento': this.usuario.pessoa.dataNascimento,
+              'cpf': this.usuario.pessoa.cpf,
+              'rg': this.usuario.pessoa.rg
+            }
           },
           {
             headers: {
-              usuario: this.usuario.usuario,
-              senha: this.usuario.senha
+              usuario: sessionStorage.getItem('usuario'),
+              senha: sessionStorage.getItem('senha')
             }
           }
       ).then(response => {
+        console.log('ok')
         this.$router.push({name: 'Menu'});
       })
 

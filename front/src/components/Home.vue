@@ -55,6 +55,8 @@ export default {
           senha: this.usuario.senha
         }
       }).then(response => {
+        sessionStorage.setItem('usuario', this.usuario.usuario);
+        sessionStorage.setItem('senha', this.usuario.senha);
         this.$router.push({name: 'Menu'});
       }, response => {
         window.alert("Usuário ou senha incorretos!")

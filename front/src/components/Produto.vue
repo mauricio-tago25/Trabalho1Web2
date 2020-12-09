@@ -36,6 +36,18 @@ export default {
       this.$router.push({name: 'CadastroProduto'});
 
     },
+    listarProduto() {
+      this.$http.get('http://localhost:8080/api/produto',
+          {
+            headers: {
+              usuario: sessionStorage.getItem('usuario'),
+              senha: sessionStorage.getItem('senha')
+            }
+          })
+          .then(response => {
+
+          })
+    },
     voltar(evt) {
       evt.preventDefault();
       this.$router.push({name: 'Menu'});

@@ -6,6 +6,7 @@
       <b-button @click="index">Index</b-button>
       <b-button @click="pessoa">Pessoa</b-button>
       <b-button @click="produto">Produto</b-button>
+      <b-button @click="categoria">Categoria</b-button>
     </b-btn-group>
   </div>
 </template>
@@ -30,6 +31,10 @@ export default {
     produto(evt) {
       evt.preventDefault();
       this.$router.push({name: 'Produto'});
+    },
+    categoria(evt) {
+      evt.preventDefault();
+      this.$router.push({name: 'Categoria'});
     }
   }
 }

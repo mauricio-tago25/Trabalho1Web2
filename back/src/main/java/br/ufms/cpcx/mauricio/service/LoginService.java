@@ -29,7 +29,7 @@ public class LoginService {
         Usuario usuarioAdmin = usuarioRepository.buscarNomePelaSenha(usuario, senha);
 
         if (usuarioAdmin == null || !usuarioAdmin.getIsAdministrador()) {
-            throw new RuntimeException("O usuário não é Adminitrador!");
+            throw new RuntimeException("O usuário não é Administrador!");
         }
     }
 

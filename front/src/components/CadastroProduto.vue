@@ -70,11 +70,12 @@ export default {
           },
           {
             headers: {
-              usuario: this.usuario.usuario,
-              senha: this.usuario.senha
+              usuario: sessionStorage.getItem('usuario'),
+              senha: sessionStorage.getItem('senha')
             }
           }
       ).then(response => {
+        console.log(response.data)
         window.alert('Produto inserido com sucesso')
       }, response => {
         window.alert('Erro ao cadastrar produto.')
